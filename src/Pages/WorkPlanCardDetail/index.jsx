@@ -27,7 +27,8 @@ const WorkPlanCardDetail = () => {
       </Helmet>
       <Navigation />
       <PageBanner src="../banner1.jpg" page="Work Plan Single" />
-      <h2>{plan.title}</h2>;<p>{plan.description}</p>;
+      <h2>{plan.title}</h2>
+      <p>{plan.description}</p>
     </motion.div>
   );
 };
